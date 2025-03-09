@@ -1,0 +1,123 @@
+.section-5-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 204px;
+    gap: 20px;
+    text-align: center;
+    /* border: 1px solid; */
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+
+.section-5 {
+    background-color: #F8FAFC;
+    
+    padding-top: 96px;
+    padding-right: 112px;
+    padding-bottom: 96px;
+    padding-left: 112px;
+    gap: 64px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.section-5-heading-img {
+    width: 56px;
+    height: 56px;
+    gap: 10px;
+    border-radius: 123px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-5-heading-img img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.section-5-heading {
+    width: 800px;
+    height: 44px;
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    justify-self: center;
+
+}
+
+.section-5-heading h1 {
+    font-family: Plus Jakarta Sans;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -1.4%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.section-5-para {}
+
+.section-5-part2 {
+    width: 800px;
+    height: 108px;
+    gap: 16px;
+    margin-top: 50px;
+    /* border: 1px solid; */
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.section-5-420 {
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 68px;
+    letter-spacing: -1.8%;
+    text-align: center;
+    color: #4F46E5
+}
+
+
+
+.section-5-data {
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.8%;
+    /* text-align: center; */
+
+}
+
+.section-5-container {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.borders {
+    border-right: 1px solid #CBD5E1;
+    /* background-color: aqua; */
+}

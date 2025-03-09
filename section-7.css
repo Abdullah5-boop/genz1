@@ -1,0 +1,141 @@
+.section-7 {
+    margin-top: 60px;
+    background-color: #F8FAFC;
+    /* width: 1216px; */
+    /* height: 120vh; */
+    gap: 24px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.section-7-outer {
+    width: 1216px;
+    /* border: 1px solid; */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.section-7-test {
+    background-color: #EEF2FF;
+    color: #4F46E5;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.section-7-heading {
+
+    text-align: center;
+}
+
+.section-7-heading h1 {
+    font-family: Plus Jakarta Sans;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -1.4%;
+    text-align: center;
+
+}
+
+.section-7-heading p {
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.sec-7-cart {
+    width: 384px;
+    height: 284px;
+    gap: 10px;
+    border-radius: 24px;
+    border-width: 1px;
+    padding: 24px;
+    border: 1px solid #E2E8F0;
+}
+
+.sec-7-class-rate {
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0%;
+
+}
+
+.sec-7-cart-details {
+    display: flex;
+}
+
+.sec-7-cart-details img {
+    width: 48px;
+    height: 48px;
+    border-radius: 92.25px;
+
+}
+
+.sec-7-cart-details small {
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color:#475569
+
+}
+
+.sec-7-name {
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.7%;
+
+}
+
+.sec-7-cart-holder {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.middle-cart {
+    /* background-color: aqua; */
+    width: 384px;
+    height: 255px;
+    gap: 10px;
+    border-radius: 24px;
+    border-width: 1px;
+    padding: 24px;
+
+    /* margin-bottom:100px ; */
+}
+
+.middle-cart-2 {
+    width: 384px;
+    height: 313px;
+    gap: 10px;
+    border-radius: 24px;
+    border-width: 1px;
+    padding: 24px;
+
+    /* margin-bottom:100px ; */
+}
+
+.sec-7-all-cart-holders {
+    width: 100%;
+    display: flex;
+    gap: 34px;
+}
+

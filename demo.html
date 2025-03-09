@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="demo.css">
+    <style>
+      /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9fafc;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+/* Left Section */
+.left-section {
+    width: 50%;
+}
+
+.left-section h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+.left-section p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.learn-more {
+    border: 2px solid #6c63ff;
+    color: #6c63ff;
+    margin-right: 10px;
+}
+
+.learn-more:hover {
+    background: #6c63ff;
+    color: #fff;
+}
+
+.get-started {
+    background: #6c63ff;
+    color: #fff;
+}
+
+.get-started:hover {
+    background: #554fc5;
+}
+
+/* Right Section */
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.mockup img, .demographics img {
+    width: 250px;
+    height: auto;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+    </style>
+</head>
+
+  <body>
+      <div class="container">
+          <!-- Left Section -->
+          <div class="left-section">
+              <h1>Let’s Download The App.</h1>
+              <p>Velit scelerisque in dictum non consectetur. Felis eget velit aliquet sagittis. Ultricies integer quis auctor elit sed vulputate mi.</p>
+              <div class="buttons">
+                  <a href="#" class="btn learn-more">Learn More</a>
+                  <a href="#" class="btn get-started">Get Started</a>
+              </div>
+          </div>
+          
+          <!-- Right Section -->
+          <div class="right-section">
+              <div class="mockup">
+                  <img src="mobile-dashboard.png" alt="Mobile Dashboard">
+              </div>
+              <div class="demographics">
+                  <img src="demographics-report.png" alt="Demographics Report">
+              </div>
+          </div>
+      </div>
+
+</body>
+</html>

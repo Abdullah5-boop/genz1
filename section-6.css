@@ -1,0 +1,127 @@
+.section-6 {
+    width: 1440px;
+    height: 1028px;
+    gap: 10px;
+    /* padding-top: 96px; */
+    padding-right: 112px;
+    padding-bottom: 96px;
+    padding-left: 112px;
+    
+    gap: 64px;
+
+    /* border: 1px solid; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 160px;
+}
+
+.section-6-part1 {
+    /* border: 1px solid salmon; */
+    width: 680px;
+    height: 180px;
+    max-width: 680px;
+    gap: 24px;
+}
+
+.section-6-heading-2 {
+    font-family: Plus Jakarta Sans;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 5px;
+    padding-top: 10px;
+    letter-spacing: -1.4%;
+    /* border: 1px solid1; */
+
+}
+
+.section-6-para {
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #475569;
+
+
+}
+
+.sec-6-line {
+    /* background-color: #4F46E5; */
+    background-color: #E0E7FF;
+    width: 10px;
+    height: 100%;
+    /* angle: 90 deg; */
+    border-radius: 1234px;
+
+
+}
+.sec-6-line2 {
+    background-color: #4F46E5;
+    /* background-color: #E0E7FF; */
+    width: 10px;
+    height: 100%;
+    /* angle: 90 deg; */
+    border-radius: 1234px;
+
+
+}
+
+.section-6-part2-holder {
+    width: 592px;
+    height: 140px;
+    gap: 24px;
+    /* border: 1px solid; */
+    padding-right: 96px;
+    display: flex;
+
+}
+
+.section-6-cart {
+
+
+    /* align-items: center; */
+    /* padding-bottom: 100px; */
+
+
+
+}
+
+.section-6-cart-header {
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 10px;
+    letter-spacing: -1%;
+
+
+}
+
+.section-6-cart-para {
+    /* width: 468px; */
+    /* height: 52px; */
+
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0%;
+
+}
+
+.img-9 img {
+    width: 592px;
+    height: 592px;
+    border-radius: 32px;
+    object-fit: cover;
+
+}
+.section-6-part2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 135px;
+}
+.section-6-part2-container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

@@ -1,0 +1,143 @@
+.sec-10 {
+    background-color: #EEF2FF;
+    /* margin-bottom: 200px; */
+    position: relative;
+    /* width: 1440; */
+    height: 653px;
+    padding-top: 64px;
+    padding-right: 112px;
+    padding-bottom: 64px;
+    padding-left: 112px;
+    gap: 10px;
+
+
+}
+
+.sec-10-holder {
+    width: 1216px;
+    height: 525px;
+    gap: 96px;
+    background-color: #EEF2FF;
+    /* border: 1px solid; */
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.sec-10-content {
+    width: 560px;
+    height: 251px;
+    /* gap: 48px; */
+    /* border: 1px solid; */
+    margin-bottom: 180px;
+
+}
+
+.sec-10-content h1 {
+    font-family: Plus Jakarta Sans;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -1.4%;
+    color: #1E293B;
+
+}
+
+.sec-10-content p {
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #475569;
+
+
+
+}
+
+.signs button {
+
+
+    width: 126px;
+    height: 48px;
+    min-height: 48px;
+    gap: 10px;
+    padding-top: 12px;
+    padding-right: 20px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    border-radius: 1234px;
+    border-width: 1px;
+
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.7%;
+
+
+}
+
+.signs button:nth-child(1) {
+    border: 1px solid #4F46E5;
+    color: #4F46E5;
+    background-color: #EEF2FF;
+}
+
+.signs button:nth-child(2) {
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.7%;
+
+    background-color: #4F46E5;
+    color: #EEF2FF;
+    /* background-color: ; */
+
+}
+
+.sec-10-img {
+    position: relative;
+    display: flex;
+
+
+}
+
+.img-1,
+.img-2 {
+    width: 354px;
+    height: 721px;
+    object-fit: cover;
+
+
+}
+
+.img-1 img {
+    position: absolute;
+    /* width: 318px;
+    height: 690px; */
+    bottom: 200px;
+    left: 18.25px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    width: 35%;
+    height: 60%;
+    border-radius: 27px;
+}
+
+.img-2 img {
+    position: absolute;
+    /* width: 318px;
+    height: 690px; */
+    bottom: 200px;
+    left: 308px;
+    top: 0;
+border-radius: 26px;
+    width: 35%;
+    height: 60%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
