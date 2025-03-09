@@ -1,3 +1,18 @@
+:root{
+    --sec-7-cart-width:384px;
+    --sec-7-cart-height:313px;
+    --sec-7-class-rate-font-size:18px;
+
+    --section-7-outer-width:1216px;
+
+
+    --section-7-heading-h1-font-size:36px;
+    --section-7-heading-h1-line-height:44px;
+    --section-7-heading-h1-font-weight:800;
+
+
+    --section-7-heading-p-font-size:18px
+}
 .section-7 {
     margin-top: 60px;
     background-color: #F8FAFC;
@@ -10,7 +25,7 @@
 }
 
 .section-7-outer {
-    width: 1216px;
+    width: var(--section-7-outer-width);
     /* border: 1px solid; */
     margin-left: auto;
     margin-right: auto;
@@ -34,27 +49,32 @@
 
 .section-7-heading h1 {
     font-family: Plus Jakarta Sans;
-    font-weight: 800;
-    font-size: 36px;
-    line-height: 44px;
+    font-weight: var(--section-7-heading-h1-font-weight);
+    font-size: var(--section-7-heading-h1-font-size);
+    line-height: var(--section-7-heading-h1-line-height);
     letter-spacing: -1.4%;
     text-align: center;
+
+
+
 
 }
 
 .section-7-heading p {
     font-family: Plus Jakarta Sans;
     font-weight: 400;
-    font-size: 18px;
+    font-size: var(--section-7-heading-p-font-size);
     line-height: 160%;
     letter-spacing: 0%;
     text-align: center;
 
+   
+
 }
 
 .sec-7-cart {
-    width: 384px;
-    height: 284px;
+    width: var(--sec-7-cart-width);
+    height: var(--sec-7-cart-height);
     gap: 10px;
     border-radius: 24px;
     border-width: 1px;
@@ -65,7 +85,7 @@
 .sec-7-class-rate {
     font-family: Plus Jakarta Sans;
     font-weight: 400;
-    font-size: 18px;
+    font-size: var(--sec-7-class-rate-font-size);
     line-height: 160%;
     letter-spacing: 0%;
 
@@ -88,8 +108,7 @@
     font-size: 16px;
     line-height: 160%;
     letter-spacing: 0%;
-    color:#475569
-
+    color: #475569
 }
 
 .sec-7-name {
@@ -139,3 +158,33 @@
     gap: 34px;
 }
 
+@media screen and (max-width: 790px) {
+    :root{
+        --sec-7-cart-width:343px;
+        --sec-7-cart-height:266px;
+        --sec-7-class-rate-font-size:16px;
+
+
+        --section-7-outer-width:343px;
+
+
+
+        --section-7-heading-h1-font-size:30px;
+        --section-7-heading-h1-line-height:38px;
+        --section-7-heading-h1-font-weight:400;
+
+
+        --section-7-heading-p-font-size:16px
+    }
+
+    .sec-7-cart-holder {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 32px;
+        align-items: center;
+
+        justify-content: center;
+        padding-left: 10px;
+    }
+}

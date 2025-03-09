@@ -29,13 +29,46 @@
 
 
 }
-.sec-12-p3{
+
+.sec-12-p3 {
     text-align: end;
     color: #94A3B8;
 
 }
-.sec-12-up{
-    margin:auto
+
+.sec-12-up {
+    margin: auto
+}
+
+@media screen and (max-width: 790px) {
+    .sec-12 {
+        width: 343px;
+        height: 180px;
+        /* padding-top: 32px; */
+        gap: 16px;
+        /* border-top-width: 1px; */
+        margin-left: auto;
+        margin-right: auto;
+        /* border: 1px solid; */
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
     
+    }
+    .sec-12-p1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .sec-12-up{
+        order: 2;
+    }
+    .sec-12-p3 {
+        text-align:center;
+        color: #94A3B8;
+    
+    }
 
 }

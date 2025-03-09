@@ -1,15 +1,32 @@
+:root {
+    --section-6-padding-left: 112px;
+    --section-6-padding-right: 112px;
+
+
+    --section-6-heading-2-font-width:680px;
+    --section-6-heading-2-font-size: 32px;
+    --section-6-heading-2-line-height: 44px;
+    --section-6-heading-2-font-wight: 800;
+
+    --section-6-para-font-size: 20px;
+    --section-6-cart-para-width: auto;
+    --section-6-cart-para-height: auto;
+
+
+    --img-9-img-width: 592px;
+    --img-9-img-height: 592px;
+
+    --section-6-cart-header-font-size:20px;
+}
+
 .section-6 {
     width: 1440px;
     height: 1028px;
     gap: 10px;
-    /* padding-top: 96px; */
-    padding-right: 112px;
+    padding-right: var(--section-6-padding-right);
     padding-bottom: 96px;
-    padding-left: 112px;
-    
+    padding-left: var(--section-6-padding-left);
     gap: 64px;
-
-    /* border: 1px solid; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 160px;
@@ -24,12 +41,14 @@
 }
 
 .section-6-heading-2 {
+    width: var(--section-6-heading-2-font-width);
     font-family: Plus Jakarta Sans;
-    font-weight: 800;
-    font-size: 26px;
-    line-height: 5px;
+    font-weight: var(--section-6-heading-2-font-wight);
+    font-size: var(--section-6-heading-2-font-size);
+    line-height: var(--section-6-heading-2-line-height);
     padding-top: 10px;
     letter-spacing: -1.4%;
+
     /* border: 1px solid1; */
 
 }
@@ -37,30 +56,30 @@
 .section-6-para {
     font-family: Plus Jakarta Sans;
     font-weight: 400;
-    font-size: 20px;
+    font-size: var(--section-6-para-font-size);
     line-height: 160%;
     letter-spacing: 0%;
     color: #475569;
-
-
+    width: var(--section-6-para-width);
+    height: var(--section-6-para-height);
 }
 
 .sec-6-line {
-    /* background-color: #4F46E5; */
+
     background-color: #E0E7FF;
     width: 10px;
     height: 100%;
-    /* angle: 90 deg; */
     border-radius: 1234px;
 
 
 }
+
 .sec-6-line2 {
     background-color: #4F46E5;
     /* background-color: #E0E7FF; */
     width: 10px;
     height: 100%;
-    /* angle: 90 deg; */
+
     border-radius: 1234px;
 
 
@@ -76,20 +95,11 @@
 
 }
 
-.section-6-cart {
-
-
-    /* align-items: center; */
-    /* padding-bottom: 100px; */
-
-
-
-}
 
 .section-6-cart-header {
     font-family: Plus Jakarta Sans;
     font-weight: 700;
-    font-size: 20px;
+    font-size: var(--section-6-cart-header-font-size);
     line-height: 10px;
     letter-spacing: -1%;
 
@@ -97,31 +107,85 @@
 }
 
 .section-6-cart-para {
-    /* width: 468px; */
-    /* height: 52px; */
+     width: var(--section-6-cart-para-width); 
+     height: var(--section-6-cart-para-width); 
 
     font-family: Plus Jakarta Sans;
     font-weight: 400;
-    font-size: 20px;
+    font-size: var(--section-6-para-font-size);
     line-height: 160%;
     letter-spacing: 0%;
 
 }
 
 .img-9 img {
-    width: 592px;
-    height: 592px;
+    width: var(--img-9-img-width);
+    height: var(--img-9-img-height);
     border-radius: 32px;
     object-fit: cover;
 
 }
-.section-6-part2{
+
+.section-6-part2 {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding-top: 135px;
 }
-.section-6-part2-container{
+
+.section-6-part2-container {
     display: flex;
     flex-direction: column;
     gap: 8px;
+}
+
+.section-6-br {
+    display: none;
+}
+
+@media screen and (max-width: 790px) {
+    :root {
+        --section-6-padding-left: 16px;
+        --section-6-padding-right: 16px;
+
+
+        --section-6-heading-2-font-size: 22px;
+        --section-6-heading-2-line-height: 38px;
+        --section-6-heading-2-padding-top: 10px;
+        --section-6-heading-2-font-width:343px;
+
+
+        --section-6-para-font-size: 14px;
+
+
+        --img-9-img-width: 343px;
+        --img-9-img-height: 343px;
+
+
+        --section-6-cart-header-font-size:16px;
+
+
+        --section-6-para-width: 315px;
+        --section-6-para-height: 78px;
+
+
+        --section-6-cart-para-width: 315px;
+        --section-6-cart-para-height: 78px;
+        
+    }
+
+    .section-6-br {
+        display: block;
+    }
+
+    .section-6-para {
+        width: 343px;
+        height: 87px;
+
+    }
+    .section-6-part2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-top: 135px;
+    }
+
 }

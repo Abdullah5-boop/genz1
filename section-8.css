@@ -1,6 +1,17 @@
+:root {
+    --sec-8-heading-holder-width: 1216px;
+    --sec-8-heading-holder-height: 149px;
+
+
+    --section-8-width:1440px;
+    --section-8-height:525px;
+    /* --section-8-width:343px;
+    --section-8-height:1081px; */
+}
+
 .section-8 {
-    width: 1440px;
-    height: 525px;
+    width: var(--section-8-width);
+    height: var(--section-8-height);
     padding-top: 64px;
     padding-right: 112px;
     padding-bottom: 64px;
@@ -13,13 +24,14 @@
     padding-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    
+    margin-bottom: 50px;
+
 
 }
 
 .sec-8-heading-holder {
-    width: 1216px;
-    height: 149px;
+    width: var(--sec-8-heading-holder-width);
+    height: var(--sec-8-heading-holder-width);
 
     /* border: 1px solid; */
     display: flex;
@@ -27,6 +39,11 @@
     /* justify-content: center; */
     align-items: start;
     margin-bottom: -50px;
+
+
+
+
+
 }
 
 .sec-8-heading-holder h1 {
@@ -49,13 +66,13 @@
 
 }
 
-.section-8-cart-holder {
+/* .section-8-cart-holder {
     width: 1216px;
     height: 184px;
     gap: 32px;
     margin-top: 64px;
 
-}
+} */
 
 .section-8-cart {
     border: 2px solid;
@@ -98,9 +115,50 @@
 
 .section-8-cart-holder {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     width: 1216px;
     height: 184px;
     gap: 32px;
+    justify-content: center;
+    align-items: center;
 
+
+    /* display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 343px;
+    height: 1184px;
+    gap: 32px;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+@media screen and (max-width: 790px) {
+    :root {
+        --sec-8-heading-holder-width: 343px;
+        --sec-8-heading-holder-height: 178px;
+        --section-8-width:375px;
+        --section-8-height:1084px
+        
+    }
+
+    .section-8-cart-holder {
+        /* display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 1216px;
+        height: 184px;
+        gap: 32px;
+        justify-content: center;
+        align-items: center; */
+    
+    
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 343px;
+        height: 1184px;
+        gap: 32px;
+        justify-content: center;
+        align-items: center;
+    
+    }
 }
