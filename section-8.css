@@ -7,6 +7,8 @@
     --section-8-height:525px;
     /* --section-8-width:343px;
     --section-8-height:1081px; */
+
+    --sec-8-heading-holder-p-text-align:center;
 }
 
 .section-8 {
@@ -62,7 +64,10 @@
     font-size: 18px;
     /* line-height: 160%; */
     letter-spacing: 0%;
-    text-align: center;
+    text-align: var(--sec-8-heading-holder-p-text-align);
+
+
+    
 
 }
 
@@ -90,7 +95,7 @@
     top: 1.13px;
     left: 3.38px;
     object-fit: cover;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 .section-8-cart h1 {
@@ -138,7 +143,9 @@
         --sec-8-heading-holder-width: 343px;
         --sec-8-heading-holder-height: 178px;
         --section-8-width:375px;
-        --section-8-height:1084px
+        --section-8-height:1084px;
+
+        --sec-8-heading-holder-p-text-align:start;
         
     }
 
@@ -160,5 +167,9 @@
         justify-content: center;
         align-items: center;
     
+    }
+    .section-8-cart {
+        margin-left: auto;
+        margin-right: auto;
     }
 }

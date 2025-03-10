@@ -63,6 +63,7 @@
     .sec-11{
         width: 375px;
         height: 1440px;
+        margin-top: 500px;
 
         /* background-color: aqua; */
         display: grid;
