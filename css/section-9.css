@@ -1,3 +1,7 @@
+:root{
+  --ko-accordion-item-header-f-s:20px;
+  --ko-container-p-fs:16px;
+}
 .section-9-outer-faq {
   /* margin-top: 200px; */
   width: 800px;
@@ -60,10 +64,13 @@
 }
 
 .ko-faq-section .ko-container>p {
+  
+
   text-align: center;
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 30px;
+  color:#475569 ;
 }
 
 .ko-accordion-item {
@@ -72,10 +79,11 @@
 }
 
 .ko-accordion-item-header {
+  
   padding: 20px 0;
-  font-size: 20px;
+  font-size: var(--ko-accordion-item-header-f-s);
   line-height: 30px;
-  font-weight: 500;
+  font-weight: 800;
   font-family: var(--font-marcellus);
   display: flex;
   align-items: center;
@@ -151,3 +159,22 @@
 }
 
 /* faq section end */
+@media screen and (max-width: 790px) {
+  :root{
+    --ko-accordion-item-header-f-s:16px;
+    --ko-container-p-fs:14px;
+  }
+
+  .fko-ask-qus h3 {
+    background-color: aqua;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .fko-ask-qus p {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+}
